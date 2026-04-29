@@ -1,0 +1,96 @@
+.Logo-img{
+    height: 100px;
+    width: 80px;
+}
+.event-card {
+            position: relative;
+        }
+
+        .event-status-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            font-size: 0.8rem;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .event-card .card-img-top {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .event-card .card {
+            transition: transform 0.3s;
+            overflow: hidden;
+        }
+
+        .event-card .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+.img-fallback {
+            height: 200px;
+            background-color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6c757d;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .overlay-text {
+                font-size: 2.5rem;
+            }
+            .overlay-section {
+                height: 20vh;
+            }
+
+            .event-card .card-img-top,
+            .img-fallback {
+                height: 150px;
+            }
+        }
+.navbar{
+    position: sticky;
+    top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+body {
+            background-color: #f5f7fa;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            color: #333;
+        }
+
+        .table-container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .table th {
+            background-color: #0d6efd;
+            color: white;
+            text-align: center;
+        }
+
+        .table td {
+            text-align: center;
+        }
+.col-lg-4 {
+    width: 33.33% !important;
+    flex: 0 0 33.33% !important;
+    max-width: 33.33% !important;
+}
